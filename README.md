@@ -13,6 +13,6 @@ The algorithm works as follows:
 The platform also provides capabilities to work with first responders, for users to trigger emergency alerts, and a forum for members of the scientific community and the general public to interact with each other as well as help improve the tool.
 
 The following branches are present in the repository:
-* LANDWATCH_PWA: Contains the progressive web app for the project.
-* UI_DEV: Contains the UI elements for the web app.
-* algo: Contains the predictive algorithm for anticipating landslides.
+* **LANDWATCH_PWA**: Contains the progressive web app for the project.
+* **UI_DEV**: Contains the UI elements for the web app.
+* **algo**: Contains the predictive algorithm for anticipating landslides.
