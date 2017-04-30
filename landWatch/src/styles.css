@@ -1,1 +1,65 @@
-/* You can add global styles to this file, and also import other style files */
+/*#FFA11B
+#DF6918
+#97371C
+#2F0B0D
+#FFC37B*/
+
+::selection{
+  color: #fff;
+  background: #97371C;
+}
+
+body::-webkit-scrollbar{
+  display: none;
+}
+
+body{
+  margin: 0;
+  padding: 20px;
+  background: #97371C;
+  height: 100vh;
+  font-family: 'Lato', sans-serif;
+}
+
+a{
+  text-decoration: none;
+  color: inherit;
+}
+
+.button-primary{
+  padding: 5px;
+  color: #2F0B0D;
+  border-radius: 5px;
+  box-sizing: border-box;
+  transition: all 0.3s ease-in-out;
+}
+.button-primary:hover{
+  background: #5E1916;
+  color: #FFA11B;
+}
+
+.button-nav{
+  padding: 5px;
+  display: inline-block;
+  width: 100px;
+  color: #2F0B0D;
+  border-radius: 30px;
+  text-align: center;
+  margin-left: 10px;
+}
+
+.button-large{
+  padding: 10px;
+  font-size: 20px;
+  width: 250px;
+  text-align: center;
+  background: #97371C;
+  border-radius: 5px;
+  color: #FFA11B;
+}
+
+input{
+  font-family: inherit;
+  outline: 0;
+  border: 0;
+}

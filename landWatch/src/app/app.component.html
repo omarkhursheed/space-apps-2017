@@ -1,3 +1,32 @@
-<h1>
-  {{title}}
-</h1>
+<div class="wrapper">
+
+  <header>
+    <div class="branding">
+      <div class="logo"></div>
+      <div class="types">
+        <div class="logotype">LANDWATCH</div>
+        <div class="motto">Identify, Educate, Mitigate</div>
+      </div>
+    </div>
+    <div class="loginCreds" *ngIf="loginStatus">
+      <div class="profile-pic"></div>
+      <div class="username">Username</div>
+      <div class="emergency">
+        <i class="fa fa-exclamation-circle" aria-hidden="true"></i>
+      </div>
+    </div>
+
+    <div class="functions" *ngIf="!loginStatus">
+      <a href="#" class="button-primary"><b>Sign In</b></a>
+      <span>or</span>
+      <a href="#" class="button-primary"><b>Sign up</b></a>
+    </div>
+  </header>
+
+  <nav *ngIf="!loginStatus">
+    <a  routerLink="/visual" routerLinkActive="active" href="#" class="button-nav">Home</a>
+    <a routerLink="/news" routerLinkActive="active" class="button-nav">News</a>
+    <a routerLink="/visual" routerLinkActive="active" class="button-nav">Profile</a>
+  </nav>
+<router-outlet></router-outlet>
+</div>

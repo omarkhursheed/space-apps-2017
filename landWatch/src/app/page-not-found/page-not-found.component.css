@@ -1,0 +1,15 @@
+.not-found-wrapper{
+  width: 100%;
+  height: 100%;
+  background: #222;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.message{
+  font-size: 100px;
+  color: #efefef;
+  font-family: 'Lato', sans-serif;
+  font-weight: 900;
+}

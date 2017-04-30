@@ -1,0 +1,89 @@
+.vis-wrapper{
+  position: relative;
+  width: 100%;
+  height: 100%;
+  padding: 10px;
+  box-sizing: border-box;
+  display: flex;
+}
+
+.sidebar{
+  padding-top: 70px;
+  padding-right: 10px;
+  width: 15%;
+  height: 100%;
+  border-right: 3px solid #dedede;
+}
+.sidebar>a{
+  display: block;
+  margin: 10px 0;
+  padding: 5px;
+  font-size: 15px;
+  border-radius: 5px;
+}
+.sidebar>a:hover{
+  background: #DF6918;
+}
+
+.section{
+  color: #2F0B0D;
+  position: relative;
+  display: inline-block;
+}
+.section>.head{
+  padding: 10px;
+  box-sizing: border-box;
+  font-size:30px;
+  background: #fff;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+.section>.content{
+  display: block;
+  padding: 10px;
+  box-sizing: border-box;
+  background: #fff;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+.section i{
+  margin-right: 10px;
+}
+
+.data{
+  flex-grow: 1;
+  position: relative;
+}
+.data.content{
+  position: relative;
+}
+.data>.content>.image{
+  position: relative;
+  background: url("http://www.droid-life.com/wp-content/uploads/2016/09/google-maps.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  padding: 10px;
+  height: 500px;
+  box-sizing: border-box;
+  margin-top: 10px;
+}
+.data-details{
+  display: flex;
+  justify-content: space-between;
+  font-size: 20px;
+}
+.risk-level{
+  padding: 5px;
+  background: green;
+  border-radius: 5px;
+  color: #fff;
+}
+
+.news{
+  width: 35%;
+  float: right;
+}
+.news>.content{
+  height: 500px;
+}
